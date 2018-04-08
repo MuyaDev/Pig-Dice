@@ -1,0 +1,28 @@
+header {
+  background-image: url("../img/pighead.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 450px;
+  height: 450px;
+  margin-left: 0px;
+  margin right: 0px;
+}
+
+@@font-face {
+  font-family: Miraculous&Christmas;
+  src: url("../Miraculous&Christmas.ttf");
+}
+
+#aside {
+  background-image: url("../img/loader.gif");
+  background-size: 320px 500px;
+  background-repeat: no-repeat;
+}
+
+#players {
+  display: run-in;
+  text-align: center;
+}
+
+button {
+  align: center;
+}

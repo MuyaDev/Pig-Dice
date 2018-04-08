@@ -3,10 +3,52 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <title>Pig-Dice</title>
 </head>
 
 <body>
+  <div class="container-fluid">
+    <header>
+    </header>
+    <div class="col-md-3" id="aside">
+      <h1><font color="maroon"><u>Let's Roll!</u><font color></h1>
+      <h2>Gameplay:</h2>
+      <p><strong>Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold":</strong></p>
+      <ul><strong>
+          <li>If the player rolls a 1, they score nothing and it becomes the next player's turn.</li>
+          <li>If the player rolls any other number, it is added to their turn total and the player's turn continues.</li>
+          <li>If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.</li>
+        </strong></ul>
+      <p><strong>The first player to score 100 or more points wins.</strong></p>
+    </div>
+    <div class="container-fluid">
+      <div class="panel" id="players">
+        <div class="col-md-3" id="player1">
+          <button type="submit" id="roll1" class="btn btn-success">Roll</button>
+          <button type="submit" id="hold1" class="btn btn-warning">Hold</button>
+        </div>
+        <div class="pnnel" id="player2">
+          <div class="col-md-3">
+            <button type="submit" id="Roll2" class="btn btn-success">Roll</button>
+            <button type="submit" id="Hold2" class="btn btn-warning">Hold</button>
+          </div>
+        </div>
+        <div class="panel" id="total">
+          <div class="col-md-3">
+            <form id="Result">
+              <div class="form group">
+                <label for="Result">Total</label>
+                <output type="number" class="form-control" id="total">
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+      <script src="js/jquery.js"></script>
+      <script src="js/scripts.js"></script>
 
 </body>
 
