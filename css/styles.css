@@ -1,1 +1,16 @@
+.jumbotron {
+  background-image: url("../img/throw.jpeg");
+  background-repeat: round;
+  background-size: auto;
+}
 
+#top {
+  background-image: url("../img/dice.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% 500px;
+  height: 450px;
+}
+
+h2, h3 {
+  color: blue;
+}
